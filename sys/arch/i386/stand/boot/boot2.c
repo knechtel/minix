@@ -285,7 +285,7 @@ print_banner(void)
 		       getbasemem(), getextmem());
 #else
 		printf("\n"
-			"--- Welcome to MINIX 3. This is the boot monitor. ---\n"
+			"--- Welcome to MINIX 3 by Maiquel Knechtel. This is the boot monitor. ---\n"
 			"Memory: %d/%d k\n",
 			getbasemem(), getextmem());
 #endif /* !defined(__minix) */
